@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Dummy medical dataset
+# Dummy 
 data = {
     'Patient_ID': [1, 2, 3, 4, 5],
     'Symptoms': ['fever, cough', 'headache, nausea', 'fever, fatigue', 'shortness of breath, chest pain', 'cough, sore throat'],
