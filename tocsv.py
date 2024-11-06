@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Dummy 
 data = {
     'ID': [1, 2, 3, 4, 5],
     'Simptomlar': ['isitma, yotal', 'bosh ogrigi, kongil aynishi', 'isitma, charchoq', 'nafas qisilishi, kokrak ogrigi', 'yotal, tomoq ogrigi'],
