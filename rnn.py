@@ -9,7 +9,7 @@ from tensorflow.keras.layers import Embedding, LSTM, Dense
 # Load data
 data = pd.read_csv('medical_data.csv')
 
-# Tokenize symptoms
+
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(data['Asoratlari'])
 sequences = tokenizer.texts_to_sequences(data['Asoratlari'])
