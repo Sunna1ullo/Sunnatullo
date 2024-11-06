@@ -24,7 +24,7 @@ rnn_model.add(Dense(1, activation='sigmoid'))
 # Compile RNN model
 rnn_model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-print("RNN model defined.")
+print("RNN model belgilangan.")
 
 
 from tensorflow.keras.layers import Conv1D, GlobalMaxPooling1D
@@ -39,4 +39,4 @@ cnn_model.add(Dense(1, activation='sigmoid'))
 # Compile CNN model
 cnn_model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-print("CNN model defined.")
+print("CNN model belgilangan.")
